@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@200;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@200;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../asset/bg.jpg");
+    background-color: #071013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* To contain the sidebar */
+
+}
+/*Header*/
+.head{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    border-radius: 100px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    max-height: 10%;
+    position: relative; /* To contain the sidebar */
+    
+}
+.aplis{
+    display: none;
+}
+.hpart{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hpart2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headimg{
+    height: 60%;
+    width: 80%;
+}
+.butt{
+    font-family: 'Inter', sans-serif;
+    font-size: 120%;
+}
+.butt2{
+    font-family: 'Inter', sans-serif;
+    font-size: 120%;
+    color: white;
+}
+a{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.logbutt{
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 100px;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regbutt{
+    width: 80%;
+    border-radius: 100px;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em BLACK;
+    font-size: 200%;
+}
+.text {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 80%;
+    margin: 5%;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em BLACK;
+    font-size: 140%;
+
+}
+
+.calb{
+    background-color:white;
+    border-radius: 30px;
+    width: 80%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.calhead{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.name{
+    width: 30%;
+    border-radius: 100px;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nametext {
+    font-family: 'Inter', sans-serif;
+    color: #2B59C3;
+    width: 80%;
+    margin: 5%;
+    text-align: center;
+    font-size: 140%;
+
+}
+.taskcat{
+    width: 100%;
+    height: 30px;
+    /*background-color: #eaeaea;*/
+    border: 1px #f3f3f3 solid;
+    display: flex;
+}
+.taskpart{
+    width: 33%;
+    border: 2px #f3f3f3 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.cat{
+    width: 10%;
+    border-radius: 5px;
+    border: 1px #2B59C3 solid;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+.task{
+    width: 99%;
+    margin: auto;
+    min-height: 60px;
+    background-color: white;
+    border: 1px #2B59C3 solid;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+ .box{
+    width: 80%;
+    height: 95%;
+ }
+   
+  .head{
+    width: auto;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+  }
+ .hpart,.hpart2{
+    display: none;
+
+ }
+ .boximg{
+   display: none;
+ }
+ .logo{
+    display: none;
+ }
+ .int{
+    height: 80%;
+ }
+ .add{
+    height: 20%;
+ }
+ .pogaadd{
+    width: 50%;
+ }
+  .boxinput{
+    width: 80%;
+    }
+    .boxlable{
+        width: 80%;
+    }
+    .taskDate{
+        padding-bottom: none;
+    }
+    /*Sidebar*/
+
+    
+      .burger-icon {
+        display: block; 
+      }
+    
+      .bar {
+        background-color: #071013; 
+      }
+      .x{
+        width: 100%;
+        height: 20%;
+      }
+      .linki{
+        width: 100%;
+        height: 80%;
+      }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+

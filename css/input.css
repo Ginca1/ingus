@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@200;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* box */
+.box{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 45%;
+    height: 80%;
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    
+}
+
+
+.logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+   
+    
+}
+.int{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+        color: #071013;
+    flex-direction: column ;
+    position: relative; /* To contain the sidebar */
+}
+.task{
+    width: 100%;
+    height: 10%;
+    color: #071013;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+}
+.taskName{
+    width: 100%;
+    height: 20%;
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.taskDesc{
+    width: 100%;
+    height: 20%;
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.taskDate{
+    width: 100%;
+    height: 20%;
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.taskStatus{
+    width: 100%;
+    height: 20%;
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.boxinput{
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+}
+.boxlable{
+    width: 50%;
+    font-size: 15px;
+}
+.add{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+   
+}
+.boximg{
+    width: 15%;
+    height: 50%;
+}
+.pogaadd{
+    width: 15%;
+    height: 50%;
+    border-radius: 10px;
+    border:solid black 1px ;
+    background-color:#2B59C3;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+
+    
+}
+form{
+    width: 100%;
+    height: 100%;
+}
+/*sidebar*/
+.burger-icon {
+    display: none; 
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2B59C3;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    border-radius: 20px;
+    border: solid black;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 125px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+ .box{
+    width: 80%;
+    height: 95%;
+ }
+   
+  .head{
+    width: auto;
+    justify-content: left;
+    display: flex;
+    align-items: left;
+  }
+ .hpart,.hpart2{
+    display: none;
+
+ }
+ .boximg{
+   display: none;
+ }
+ .logo{
+    display: none;
+ }
+ .int{
+    height: 80%;
+ }
+ .add{
+    height: 20%;
+ }
+ .pogaadd{
+    width: 50%;
+ }
+  .boxinput{
+    width: 80%;
+    }
+    .boxlable{
+        width: 80%;
+    }
+    .taskDate{
+        padding-bottom: none;
+    }
+    /*Sidebar*/
+
+    
+      .burger-icon {
+        display: block; /* Show the burger icon on smaller screens */
+      }
+    
+      .bar {
+        background-color: #071013; /* Color of the bars */
+      }
+      .x{
+        width: 100%;
+        height: 20%;
+      }
+      .linki{
+        width: 100%;
+        height: 80%;
+      }
+
+
+
+
+
+
+
+
+}
